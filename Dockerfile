@@ -4,7 +4,7 @@ MAINTAINER Jon Chen <docku@burrito.sh>
 EXPOSE 113
 
 USER root
-RUN pacman -Syu --noconfirm --needed weechat
+RUN pacman -Syu --noconfirm --needed weechat oidentd
 
 VOLUME ["/home/jchen/.weechat"]
 
